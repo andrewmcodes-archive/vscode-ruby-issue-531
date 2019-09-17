@@ -1,24 +1,13 @@
-# README
+# vscode-ruby issue #531
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Reproduction
 
-Things you may want to cover:
+`config/environments/development.rb`
 
-* Ruby version
+### Example of rubocop lint in file
 
-* System dependencies
+![rubocop_lint](screenshots/rubocop_lint.png)
 
-* Configuration
+### Example of standardrb lint in file
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![standard_lint](screenshots/standard_lint.png)
